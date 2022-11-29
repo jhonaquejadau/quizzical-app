@@ -21,6 +21,9 @@ Let's take a overview about the project and it's features.
 
 # Versions
 
+**v1.0.1**
+* Gh-Pages configuration.
+
 **v1.0.0**
 * Home page with category selector.
 * Question page with check options.
