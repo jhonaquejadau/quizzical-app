@@ -1,0 +1,168 @@
+html, 
+body {
+  margin: 0;
+  height: 100%;
+  color: #293264;
+  background-color: #F5F7FB;
+  font-family: 'Karla', sans-serif;
+
+}
+
+.start-game-page {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Styling Start Game Page*/
+
+.start-game-page{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  border: 5px solid purple;
+}
+
+.start-game--title {
+  font-size: 3.5rem;
+}
+
+.start-game--subtitle {
+  font-size: 1.5rem;
+}
+
+.circle-right {
+  background: lemonchiffon;
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 600px;
+}
+
+.circle-left {
+  background: #DEEBF8;
+  
+  width: 200px;
+  height: 200px;
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+  border-top-left-radius: 400px;
+  border-top-right-radius: 600px;
+}
+
+/*Styling Game Button*/
+.game--button {
+  color: white;
+  background:rgba(41, 50, 100,0.8);
+  font-weight: bold;
+
+  padding: 1.5em 4em;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.game--button:hover {
+  cursor: pointer;
+}
+
+/**Styling Quesiton Page*/
+
+.questions-page, .questions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions-option {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+.questions-option * {
+  margin:0em 0.5em;
+}
+
+.answers {
+  padding: 0.5em 2em;
+  color: #293264;
+  border: 2px solid #293264;
+  border-radius: 10px;
+}
+
+.answers:hover {
+  cursor: pointer;
+  background-color: #DEEBF8;
+}
+
+.answers-checked {
+  padding: 0.5em 2em;
+  color: #293264;
+  border: 2px solid #DEEBF8;
+  border-radius: 10px;  
+}
+
+.selected{
+  background-color: #DEEBF8;
+}
+
+.correct-answer {
+  background-color: #94D7A2;
+}
+
+.incorrect-answer {
+  background-color: #F8BCBC;
+}
+
+.current-answer {
+  background-color: #F5F7FB;
+}
+
+/*Styling Categories*/
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+}
+
+.categories * {
+  margin: 0em 0.5em;
+}
+
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  
+  width: 100%;
+  /* height: 80px; */
+
+  padding: 1em;
+  border: 2px solid #293264;
+  border-radius: 10px;
+}
+
+.category:hover {
+  background-color: #DEEBF8;
+  cursor: pointer;
+}
+
